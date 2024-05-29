@@ -1,1 +1,46 @@
+# Директории, которые следует игнорировать
 node_modules/
+dist/
+build/
+tmp/
+temp/
+logs/
+coverage/
+
+# Конфигурационные файлы среды и зависимости
+.env
+*.env
+*.local
+
+# Файлы, генерируемые операционной системой
+.DS_Store
+Thumbs.db
+
+# Файлы, относящиеся к IDE и редакторам
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Файлы, относящиеся к различным инструментам и сборщикам
+yarn.lock
+package-lock.json
+npm-debug.log
+yarn-error.log
+lerna-debug.log
+
+# Лог-файлы
+*.log
+
+# Кэш-файлы
+*.cache
+.cache/
+
+# Прочие файлы
+*.bak
+*.swp
+*.tmp
+
+# Исключения для конкретных файлов/папок (например, если нужно включить ранее исключенные файлы)
+# !important-file.txt
+# !/path/to/important-directory/
